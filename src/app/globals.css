@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(25px);
+}
+
+.homeSetion {
+  background-image: url('/images/hero-img.png');
+
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.borderTopRight{
+  border-top-right-radius: 5rem;
+}
+.borderTopLeft{
+  border-top-left-radius: 5rem;
+}
+
+.borderBottomRight{
+  border-bottom-right-radius: 5rem;
+}
+
+
+
+.contactBg {
+  background-image: url('/images/contactCover.jpg');
+  background-size: 100%;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+.customBg {
+  background-image: url('/images/how-to-start/Rectangle 26.png');
+  background-size: 100%;
+  background-position: center;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
